@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	
+	<head>
+	<meta charset="utf-8"/>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
+	<title>Site</title>
+	<link type = "text/css"
+		  rel = "stylesheet"
+		  href = "style.css"/>
+	
+	<script src = "p2.js" defer>
+	</script>
+	
+		  
+	</head>
+
+	<body>
+
+		<header>
+		
+		<nav class = "navbar">
+				<div class = "dropdown">
+					  <button class = "dropbtn" onclick = "DropDown_func()">Menu
+							<i class = "fa fa-caret-down"></i> 
+					  </button>
+					  <div class = "dropdown-content" id = "dropdown_menu">
+							<a href = "home.html"><b>Home</b></a>
+							<a href = "page2.html"><b>Contact</b></a>
+							<a href = "page3.html"><b>About Us</b></a>
+							<a href = "page4.html"><b>Pictures</b></a>
+							<a href = "page5.html"><b>Register</b></a>
+					  </div>
+				  </div> 		
+			</nav>
+			
+			
+		<h1>Star Odyssey</h1>	
+		</header>
+		
+		<section>
+			<div class = "about_us">
+				<div class = "container">
+							  <form action = "action_page.php">
+
+								<label for = "fname">Name</label>
+								<input type = "text" id = "fname" name = "firstname" placeholder = "Your name.."/>
+
+								<label for = "subject">Subject</label>
+								<textarea id = "subject" name = "subject" placeholder = "Write something.." style = "height:200px"></textarea>
+
+								<input type = "submit" value = "Work in progress..">
+
+								</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+			 <p>Posted by: Ghimbas Tiberiu</p>
+			<p>Contact information: <a href="mailto:someone@example.com">
+			tibighimbas@gmail.com</a></p>
+		</footer>
+		
+	</body>
+
+</html>
