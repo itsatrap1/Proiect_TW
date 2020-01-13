@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	
+	<head>
+	<meta charset="utf-8"/>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
+	<title>Site</title>
+	<link type = "text/css"
+		  rel = "stylesheet"
+		  href = "style.css"/>
+ 	
+	<script src = "home_java.js" defer>
+	</script>
+  
+	</head>
+	
+	<body>
+		
+		<header>
+			<nav class = "navbar">
+				<div class = "dropdown">
+					  <button class = "dropbtn" onclick = "DropDown_func()">Menu
+							
+					  </button>
+					  <div class = "dropdown-content" id = "dropdown_menu">
+							<a href = "home.html"><b>Home</b></a>
+							<a href = "page2.html"><b>Contact</b></a>
+							<a href = "page3.html"><b>About Us</b></a>
+							<a href = "page4.html"><b>Pictures</b></a>
+							<a href = "page5.html"><b>Register</b></a>
+							
+					  </div>
+				</div> 		
+			</nav>
+			
+		<h1>Star Odyssey</h1>		
+		</header>
+		
+		<section>
+			
+			<div id = "first_star" class = "s_s">
+				<div class = "popup" onclick = "F()"><img class = "pop_up_star" src = "poze/click_img.png" alt  = "steluta"/>
+				<span class = "popuptext" id = "myPopup"><img class = "star_desc" src = "poze/betelgeuse.jpg" alt = "info"/></span>
+				</div>
+			</div>
+			
+			<div id = "second_star" class = "s_s">
+				<div class = "popup" onclick = "F1()"><img class = "pop_up_star" src = "poze/click_img.png" alt  = "steluta"/>
+				<span class = "popuptext" id = "myPopup1"><img class = "star_desc" src = "poze/sirius.png" alt = "info"/></span>
+				</div>
+			</div>
+			
+			<div id = "third_star" class = "s_s">
+				<div class = "popup" onclick = "F2()"><img class = "pop_up_star" src = "poze/click_img.png" alt  = "steluta"/>
+				   <span class = "popuptext" id = "myPopup2"><img class = "star_desc" src = "poze/proxima.jpg" alt = "info"/></span>
+		        </div>
+			</div>
+			
+		</section>
+		<footer>
+			<p>Posted by: Ghimbas Tiberiu</p>
+			<p>Contact information: <a href="mailto:someone@example.com">
+			tibighimbas@gmail.com</a></p>
+		</footer>
+		
+	</body>
+
+</html>
